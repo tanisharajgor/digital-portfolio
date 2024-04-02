@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <div>
       <Marquee>
-        <div style={{ marginTop: "10px", display: "flex", gap: "20px" }}>
+        <div style={{ marginLeft: "20px", marginTop: "10px", display: "flex", gap: "20px" }}>
           <span className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-orange-400 border border-orange-400">
             <SiTensorflow style={{ marginRight: "5px" }} />
             TensorFlow
