@@ -1,7 +1,7 @@
 .card {
   --background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-  width: 500px;
-  height: 254px;
+  width: 925px;
+  height: 210px;
   padding: 5px;
   border-radius: 1rem;
   overflow: visible;
@@ -31,29 +31,30 @@
   --color: #181818;
   background: var(--color);
   color: var(--color);
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   overflow: visible;
   border-radius: 0.7rem;
+  color: #fff;
+  font-family: "Nunito";
+  padding: 20px;
 }
 
-/*Hover*/
+/* Hover */
 .card:hover::after {
   opacity: 0;
 }
 
 .card:hover .card-info {
-  color: #fff;
-  font-family: "Nunito";
   transition: color 1s;
-}
+} 
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 50px; /* Adjust the gap between cards */
 }
 
