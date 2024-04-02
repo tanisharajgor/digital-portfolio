@@ -51,7 +51,7 @@ function App() {
                 fontSize: "50px",
                 fontFamily: "Nunito",
                 marginTop: "10px",
-                marginBottom: "10px",
+                marginBottom: "0px",
               }}
             >
               Hello world! 🙂
@@ -62,6 +62,7 @@ function App() {
                 fontSize: "18px",
                 fontFamily: "Nunito",
                 marginBottom: "0px",
+                marginTop: "10px",
                 wordWrap: "break-word",
                 width: "50vw",
               }}
