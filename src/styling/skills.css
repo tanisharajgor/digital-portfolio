@@ -1,0 +1,13 @@
+.carousel-container {
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 120px; /* Adjust as needed */
+  }

@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .App {
   /* text-align: center; */
   background-color: #212121;
@@ -129,3 +133,6 @@
   left: 0;
   pointer-events: none; /* Make sure the canvas does not interfere with mouse events */
 }
+
+
+
