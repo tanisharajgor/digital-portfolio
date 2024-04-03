@@ -9,6 +9,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./styling/card.css";
 import "tailwindcss/tailwind.css";
 import Skills from "./components/skills";
+import ScrollCaret from "./components/scroll-caret";
 
 function App() {
   return (
@@ -27,13 +28,14 @@ function App() {
             display: "flex",
             alignItems: "center",
             zIndex: "2",
-            marginTop: "10px",
+            marginTop: "0px",
             marginLeft: "0px",
           }}
         >
           <div style={{ marginLeft: "20px" }}>
             <Earth></Earth>
           </div>
+
           <div
             style={{
               flexDirection: "column",
@@ -116,28 +118,31 @@ function App() {
             </p>
           </div>
         </div>
+        <ScrollCaret />
       </header>
 
-      <div
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          marginTop: "20px",
-        }}
-      >
-        <p
+      <header style={{ minHeight: "5px", marginTop: "0px" }}>
+        <div
+          id="tools"
           style={{
-            fontFamily: "Nunito",
-            color: "white",
-            fontSize: "30px",
-            marginBottom: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "center",
           }}
         >
-          Tools/Technologies
-        </p>
-        <Skills></Skills>
-      </div>
+          <p
+            style={{
+              fontFamily: "Nunito",
+              color: "white",
+              fontSize: "30px",
+              marginBottom: "10px",
+            }}
+          >
+            Tools/Technologies
+          </p>
+          <Skills></Skills>
+        </div>
+      </header>
 
       <header
         style={{
@@ -166,7 +171,14 @@ function App() {
         className="App-header"
         style={{ marginTop: "0px", minHeight: "40vh", justifyContent: "top" }}
       >
-        <p style={{ fontFamily: "Nunito", zIndex: "3", fontSize: "30px", textAlign: "center" }}>
+        <p
+          style={{
+            fontFamily: "Nunito",
+            zIndex: "3",
+            fontSize: "30px",
+            textAlign: "center",
+          }}
+        >
           My Projects (Github Code, Presentations & Papers)
         </p>
 
@@ -565,8 +577,15 @@ function App() {
             </a>
           </div>
         </div>
-        
-        <p style={{ marginTop: "15px", padding: "30px", fontFamily: "Nunito", fontSize: "12px" }}>
+
+        <p
+          style={{
+            marginTop: "15px",
+            padding: "30px",
+            fontFamily: "Nunito",
+            fontSize: "12px",
+          }}
+        >
           © Copyright 2024. Made with ᡣ𐭩ྀིྀིྀི by Tanisha Rajgor :)
         </p>
       </header>
