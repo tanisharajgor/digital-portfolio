@@ -104,5 +104,4 @@ const Earth = () => {
   ) : null;
 };
 
-// Export your component
 export default Earth;

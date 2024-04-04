@@ -10,6 +10,7 @@ import "./styling/card.css";
 import "tailwindcss/tailwind.css";
 import Skills from "./components/skills";
 import ScrollCaret from "./components/scroll-caret";
+import Button from "./components/button";
 
 function App() {
   return (
@@ -577,13 +578,30 @@ function App() {
             </a>
           </div>
         </div>
-
+      </header>
+      <header style={{ minHeight: "5px", marginTop: "0px", textAlign: "center", marginTop: "50px" }}>
+        <p
+          style={{
+            fontFamily: "Nunito",
+            color: "white",
+            fontSize: "30px",
+            marginBottom: "10px",
+          }}
+        >
+          Giving Back to The Community
+        </p>
+        <div style={{ marginTop: "40px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }}>
+        <Button buttonText="Girls Who Code" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/girl-power/girls-who-code?authuser=0"></Button>
+        <Button buttonText="International Robotics Honor Society (REC)" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"></Button>
+        <Button buttonText="VEX Robotics Mentoring Series" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"></Button>
+        </div>
         <p
           style={{
             marginTop: "15px",
             padding: "30px",
             fontFamily: "Nunito",
             fontSize: "12px",
+            color: "white"
           }}
         >
           © Copyright 2024. Made with ᡣ𐭩ྀིྀིྀི by Tanisha Rajgor :)
