@@ -593,7 +593,7 @@ function App() {
         <div style={{ marginTop: "40px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }}>
         <Button buttonText="Girls Who Code" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/girl-power/girls-who-code?authuser=0"></Button>
         <Button buttonText="International Robotics Honor Society (REC)" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"></Button>
-        <Button buttonText="VEX Robotics Mentoring Series" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"></Button>
+        <Button buttonText="VEX Robotics Mentoring Series" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/for-the-youth/vex-mentoring-series?authuser=0"></Button>
         </div>
         <p
           style={{
