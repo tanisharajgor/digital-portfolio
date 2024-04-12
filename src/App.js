@@ -104,7 +104,7 @@ function App() {
                 style={{ color: "#04D9FF", marginRight: "5px" }}
                 href="https://github.com/tanisharajgor"
               >
-                Github
+                GitHub
               </a>
               |
               <LinkedInIcon
@@ -180,7 +180,7 @@ function App() {
             textAlign: "center",
           }}
         >
-          My Projects (Github Code, Presentations & Papers)
+          My Projects (GitHub Code, Presentations & Papers)
         </p>
 
         <div class="grid-backing" style={{ marginTop: "20px" }}>
