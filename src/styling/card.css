@@ -1,7 +1,7 @@
 .card {
   --background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-  width: 925px;
-  height: 210px;
+  max-width: 925px;
+  min-height: 210px;
   padding: 5px;
   border-radius: 1rem;
   overflow: visible;
