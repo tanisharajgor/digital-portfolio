@@ -171,7 +171,7 @@ function App() {
 
       <header
         className="App-header"
-        style={{ marginTop: "0px", minHeight: "40vh", justifyContent: "top" }}
+        style={{ marginTop: "20px", minHeight: "40vh", justifyContent: "top" }}
       >
         <p
           style={{
