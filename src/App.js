@@ -45,6 +45,7 @@ function App() {
               backgroundColor: "rgba(75, 75, 75, 0.3)",
               padding: "20px",
               borderRadius: "10px",
+              marginRight: "15px"
             }}
           >
             <p
