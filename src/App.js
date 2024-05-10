@@ -12,17 +12,13 @@ import Skills from "./components/skills";
 import ScrollCaret from "./components/scroll-caret";
 import Button from "./components/button";
 import "./styling/button.css";
+import Rocket from "./components/rocket";
 
 function App() {
   return (
     <div className="App">
       <div class="container">
-        <div class="orbit">
-          <div class="rocket">
-            <div class="window"></div>
-          </div>
-          <div class="fire"></div>
-        </div>
+        <Rocket/>
       </div>
       <header className="App-header">
         <div
@@ -30,7 +26,8 @@ function App() {
             display: "flex",
             alignItems: "center",
             zIndex: "2",
-            marginTop: "0px",
+            marginTop: "20px",
+            marginBottom: "0px",
             marginLeft: "0px",
           }}
         >
@@ -173,7 +170,7 @@ function App() {
         className="App-header"
         style={{ marginTop: "20px", minHeight: "40vh", justifyContent: "top" }}
       >
-        <p
+        <p 
           style={{
             fontFamily: "Nunito",
             zIndex: "3",
@@ -184,7 +181,7 @@ function App() {
           My Projects (GitHub Code, Presentations & Papers)
         </p>
 
-        <div class="grid-backing" style={{ marginTop: "20px" }}>
+        <div class="grid-backing" style={{ marginTop: "20px", margin: "20px" }}>
           <div class="card__content"></div>
 
           <div class="grid-container">
@@ -591,7 +588,7 @@ function App() {
         >
           Giving Back to The Community
         </p>
-        <div style={{ marginTop: "40px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }} className="button-container">
+        <div style={{ marginTop: "40px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px", margin: "30px" }} className="button-container">
         <Button buttonText="Girls Who Code" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/girl-power/girls-who-code?authuser=0"></Button>
         <Button buttonText="International Robotics Honor Society (REC)" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"></Button>
         <Button buttonText="VEX Robotics Mentoring Series" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/for-the-youth/vex-mentoring-series?authuser=0"></Button>
