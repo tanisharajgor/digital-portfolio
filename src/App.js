@@ -123,7 +123,7 @@ function App() {
         <ScrollCaret />
       </header>
 
-      <header style={{ minHeight: "5px", marginTop: "0px" }}>
+      <header style={{ minHeight: "5px", marginTop: "10px" }}>
         <div
           id="tools"
           style={{
