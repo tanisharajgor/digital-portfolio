@@ -61,7 +61,7 @@ function App() {
             <Typewriter></Typewriter>
             <p
               style={{
-                fontSize: "18px",
+                fontSize: "16px",
                 fontFamily: "Nunito",
                 marginBottom: "0px",
                 marginTop: "10px",
@@ -69,7 +69,7 @@ function App() {
                 width: "50vw",
               }}
             >
-              I'm a Computer Science Student at Northeastern University, with a love
+              I'm a Computer Science Student at Northeastern University with a love
               for Machine Learning, Software Development, Mixed Reality, and
               Astronomy.
               <br /> <br />
