@@ -216,55 +216,55 @@ function App() {
                 <div style={{ marginTop: "10px", gap: "10px" }}>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Machine Learning
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Neural Radiance Fields
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Unity
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     REST API
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     C++
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Python
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     SQL
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Augmented Reality
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Interactive Media
                   </span>
@@ -299,50 +299,50 @@ function App() {
                 <div style={{ marginTop: "10px", gap: "10px" }}>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Predictive Analytics
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Data Visualization
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Python
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     JavaScript
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     React.js
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     D3.js
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Banking & Finance
                   </span>
 
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Graphs & Network Models
                   </span>
@@ -377,50 +377,50 @@ function App() {
                 <div style={{ marginTop: "0px", gap: "10px" }}>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Convolution
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Encoding & Decoding
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     General Adversarial Networks
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Keras
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     OpenCV
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     TensorFlow
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Key Point Detection
                   </span>
 
                   <span
                     style={{ marginRight: "0px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Python
                   </span>
@@ -453,43 +453,43 @@ function App() {
                 <div style={{ marginTop: "0px", gap: "10px" }}>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Neural Networks
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Object Recognition
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Supervised Learning
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     TensorFlow
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Scikit-learn
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     OpenCV
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Regressional Analysis
                   </span>
@@ -523,55 +523,55 @@ function App() {
                 <div style={{ marginTop: "10px", gap: "10px" }}>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Pandas
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     NumPy
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Matplot.lib
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     One-hot Encoding
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     K-Means
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Naive Bayes
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Support Vector Machine
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     Decision Trees
                   </span>
                   <span
                     style={{ marginRight: "10px" }}
-                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-800 dark:text-blue-300 border border-blue-300"
+                    className="bg-gray-800 text-blue-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-blue-300"
                   >
                     MLP
                   </span>
