@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styling/scroll-caret.css";
+import { useLocation } from 'react-router-dom';
 
 // Define your component
 const ScrollCaret = () => {

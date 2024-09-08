@@ -191,7 +191,7 @@ function App() {
           <div class="grid-container">
             <a
               class="card"
-              href="https://devpost.com/software/immersify-ijx4pn?ref_content=user-portfolio&ref_feature=in_progress"
+              href="https://sly-market-32f.notion.site/Immersify-89ba644f075c4ddeb54a06319ec5283d?pvs=4"
             >
               <div class="card-info">
                 <p
