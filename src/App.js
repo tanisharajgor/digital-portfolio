@@ -80,8 +80,8 @@ function App() {
               National Henry Ford Invention Convention — focused on making
               systems more efficient, accessible, and innovative.
               <br /> <br />
-              I'm currently Data Engineering Intern at Fidelity and an incoming 
-              Cloud Software Engineering Intern for UKG (Ultimate Kronos Group). 
+              This past summer + fall I was a Data Engineering Intern at Fidelity and a 
+              Cloud & Gen. AI Software Engineering Co-op at UKG (Ultimate Kronos Group). 
               On campus, I'm a Systems Software Developer for AerospaceNU and 
               Northeastern Electric Racing, as well as a Database Design and 
               Object-Oriented Programming Teaching Assistant.
