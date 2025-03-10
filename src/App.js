@@ -601,12 +601,12 @@ function App() {
           style={{
             marginTop: "15px",
             padding: "30px",
-            fontFamily: "Nunito",
+            fontFamily: "Nunito, sans-serif, emoji",
             fontSize: "12px",
             color: "white"
           }}
         >
-          © Copyright 2024. Made with ᡣ𐭩ྀིྀིྀི by Tanisha Rajgor :)
+          © Copyright 2024. Made with &nbsp;🤍&nbsp; by Tanisha Rajgor :)
         </p>
       </header>
     </div>
