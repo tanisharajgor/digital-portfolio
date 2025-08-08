@@ -73,7 +73,7 @@ function App() {
               for Machine Learning, Software Development, Mixed Reality, and
               Astronomy.
               <br /> <br />
-              Previously, I have developed solutions for Accenture, Fidelity, FM Global,
+              Previously, I have developed solutions for Spotify, Accenture, Fidelity, FM Global,
               Boston University, and the Center for Design, as well as conducted
               software engineering and deep-learning focused research projects
               presented at MIT, Junior Humanities Science Symposium, and the
@@ -155,7 +155,7 @@ function App() {
         }}
       >
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2846%2C46%2C46%2C1%29&t=panda-syntax&wt=none&l=text&width=680&ds=true&dsyoff=6px&dsblur=100px&wc=true&wa=true&pv=17px&ph=23px&ln=false&fl=1&fm=Hack&fs=14px&lh=135%25&si=false&es=2x&wm=false&code=Where%2520I%27ve%2520Been%2520%25F0%259F%259A%2580%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250AWork%253A%2520%2520%2520%2520%2520%2520%2520%250AUKG%253A%2520Software%2520Engineering%2520Intern%2520%28Cloud%29%250AFidelity%253A%2520Data%2520Engineering%2520Intern%250AFM%2520Global%253A%2520Data%2520Science%2520Intern%250AAccenture%253A%2520IT%2520Consulting%2520Intern%250A%250AResearch%253A%250ACenter%2520for%2520Design%2520%2540%2520Northeastern%253A%2520Research%2520Software%2520Developer%250ABoston%2520University%2520AI4ALL%253A%2520Machine%2520Learning%2520Intern%250A%250AClubs%253A%250AElectric%2520Racing%253A%2520Software%2520Developer%250AAerospaceNU%253A%2520Systems%2520Software%2520Developer"
+          src="https://carbon.now.sh/embed?bg=rgba%2846%2C46%2C46%2C1%29&t=panda-syntax&wt=none&l=text&width=680&ds=true&dsyoff=6px&dsblur=100px&wc=true&wa=true&pv=17px&ph=23px&ln=false&fl=1&fm=Hack&fs=14px&lh=135%25&si=false&es=2x&wm=false&code=Where%2520I%27ve%2520Been%2520%25F0%259F%259A%2580%0A%0AWork%3A%0ASpotify%3A%20Software%20Engineering%20Intern%20%28Core%20Ex.%29%0AUKG%3A%20Software%20Engineering%20Intern%20%28Cloud%29%0AFidelity%3A%20Data%20Engineering%20Intern%0AFM%20Global%3A%20Data%20Science%20Intern%0AAccenture%3A%20IT%20Consulting%20Intern%0A%0AResearch%3A%0ACenter%20for%20Design%20%40%20Northeastern%3A%20Research%20Software%20Developer%0ABoston%20University%20AI4ALL%3A%20Machine%20Learning%20Intern%0A%0AClubs%3A%0AElectric%20Racing%3A%20Software%20Developer%0AAerospaceNU%3A%20Systems%20Software%20Developer"
           style={{
             width: "957px",
             height: "400px",
@@ -606,7 +606,7 @@ function App() {
             color: "white"
           }}
         >
-          © Copyright 2024. Made with &nbsp;🤍&nbsp; by Tanisha Rajgor :)
+          © Copyright 2025. Made with &nbsp;🤍&nbsp; by Tanisha Rajgor :)
         </p>
       </header>
     </div>
