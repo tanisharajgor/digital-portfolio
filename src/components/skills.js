@@ -9,7 +9,7 @@ import {
   SiRedis,
   SiDocker,
   SiKeras,
-  SiAmazonaws,
+  SiAmazonwebservices,
   SiJavascript,
   SiCplusplus,
   SiKotlin,
@@ -75,7 +75,7 @@ const Skills = () => {
           </span>
 
           <span className="bg-gray-800 text-orange-300 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded border border-orange-300">
-            <SiAmazonaws style={{ marginRight: "5px" }} />
+            <SiAmazonwebservices style={{ marginRight: "5px" }} />
             AWS
           </span>
 
