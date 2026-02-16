@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <div class="container">
-        <Rocket/>
+        <Rocket />
       </div>
       <header className="App-header">
         <div
@@ -46,7 +46,7 @@ function App() {
               backgroundColor: "rgba(75, 75, 75, 0.3)",
               padding: "20px",
               borderRadius: "10px",
-              marginRight: "15px"
+              marginRight: "15px",
             }}
           >
             <p
@@ -70,22 +70,23 @@ function App() {
                 width: "50vw",
               }}
             >
-              I'm a Computer Science Student at Northeastern University with a love
-              for Machine Learning, Software Development, Mixed Reality, and
-              Astronomy.
+              I'm a Computer Science Student at Northeastern University with a
+              love for Machine Learning, Software Development, Mixed Reality,
+              and Astronomy.
               <br /> <br />
-              Previously, I have developed solutions for Spotify, Accenture, Fidelity, FM Global,
-              Boston University, and the Center for Design, as well as conducted
-              software engineering and deep-learning focused research projects
-              presented at MIT, Junior Humanities Science Symposium, and the
-              National Henry Ford Invention Convention — focused on making
-              systems more efficient, accessible, and innovative.
+              Previously, I have developed solutions for Spotify, Accenture,
+              Fidelity, FM Global, Boston University, and the Center for Design,
+              as well as conducted software engineering and deep-learning
+              focused research projects presented at MIT, Junior Humanities
+              Science Symposium, and the National Henry Ford Invention
+              Convention — focused on making systems more efficient, accessible,
+              and innovative.
               <br /> <br />
-              This past summer + fall I was a Data Engineering Intern at Fidelity and a 
-              Cloud & Gen. AI Software Engineering Co-op at UKG (Ultimate Kronos Group). 
-              On campus, I'm a Systems Software Developer for AerospaceNU and 
-              Northeastern Electric Racing, as well as a Database Design and 
-              Object-Oriented Programming Teaching Assistant.
+              This past summer, I was a Software Engineering Intern at Spotify,
+              working within Core Experience and Personalization. On campus, I'm
+              a Systems Software Developer for AerospaceNU and Northeastern
+              Electric Racing, as well as a Database Design and Object-Oriented
+              Programming Teaching Assistant.
               <br /> <br />
             </p>
 
@@ -165,7 +166,7 @@ function App() {
             overflow: "hidden",
             borderRadius: "10px",
             marginTop: "50px",
-            color: "#212121"
+            color: "#212121",
           }}
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
@@ -175,7 +176,7 @@ function App() {
         className="App-header"
         style={{ marginTop: "20px", minHeight: "40vh", justifyContent: "top" }}
       >
-        <p 
+        <p
           style={{
             fontFamily: "Nunito",
             zIndex: "3",
@@ -582,7 +583,14 @@ function App() {
           </div>
         </div>
       </header>
-      <header style={{ minHeight: "5px", marginTop: "0px", textAlign: "center", marginTop: "50px" }}>
+      <header
+        style={{
+          minHeight: "5px",
+          marginTop: "0px",
+          textAlign: "center",
+          marginTop: "50px",
+        }}
+      >
         <p
           style={{
             fontFamily: "Nunito",
@@ -593,10 +601,29 @@ function App() {
         >
           Giving Back to The Community
         </p>
-        <div style={{ marginTop: "40px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px", margin: "30px" }} className="button-container">
-        <Button buttonText="Girls Who Code" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/girl-power/girls-who-code?authuser=0"></Button>
-        <Button buttonText="International Robotics Honor Society (REC)" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"></Button>
-        <Button buttonText="VEX Robotics Mentoring Series" onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/for-the-youth/vex-mentoring-series?authuser=0"></Button>
+        <div
+          style={{
+            marginTop: "40px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "20px",
+            margin: "30px",
+          }}
+          className="button-container"
+        >
+          <Button
+            buttonText="Girls Who Code"
+            onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/girl-power/girls-who-code?authuser=0"
+          ></Button>
+          <Button
+            buttonText="International Robotics Honor Society (REC)"
+            onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0"
+          ></Button>
+          <Button
+            buttonText="VEX Robotics Mentoring Series"
+            onPress="https://sites.google.com/hillers.org/hopkinetics-irhs/for-the-youth/vex-mentoring-series?authuser=0"
+          ></Button>
         </div>
         <p
           style={{
@@ -604,10 +631,10 @@ function App() {
             padding: "30px",
             fontFamily: "Nunito, sans-serif, emoji",
             fontSize: "12px",
-            color: "white"
+            color: "white",
           }}
         >
-          © Copyright 2025. Made with &nbsp;🤍&nbsp; by Tanisha Rajgor :)
+          © Copyright 2026. Made with &nbsp;🤍&nbsp; by Tanisha Rajgor :)
         </p>
       </header>
     </div>
