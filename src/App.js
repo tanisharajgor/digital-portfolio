@@ -12,6 +12,7 @@ import Skills from "./components/skills";
 import ScrollCaret from "./components/scroll-caret";
 import Button from "./components/button";
 import "./styling/button.css";
+import "./styling/apple-code-view.css";
 import Rocket from "./components/rocket";
 
 // lol
@@ -70,23 +71,22 @@ function App() {
                 width: "50vw",
               }}
             >
-              I'm a Computer Science Student at Northeastern University with a
-              love for Machine Learning, Software Development, Mixed Reality,
+              I'm a graduate computer science student at Cornell University with
+              a love for Machine Learning, Software Development, Mixed Reality,
               and Astronomy.
               <br /> <br />
-              Previously, I have developed solutions for Spotify, Accenture,
-              Fidelity, FM Global, Boston University, and the Center for Design,
-              as well as conducted software engineering and deep-learning
-              focused research projects presented at MIT, Junior Humanities
-              Science Symposium, and the National Henry Ford Invention
-              Convention — focused on making systems more efficient, accessible,
-              and innovative.
+              Previously, I've developed solutions for companies including
+              Spotify, Cisco, and Fidelity, and conducted software engineering
+              and deep-learning research presented at MIT, the Junior Science
+              and Humanities Symposium, and the National Henry Ford Invention
+              Convention — work aimed at making systems more efficient,
+              accessible, and innovative.
               <br /> <br />
-              This past summer, I was a Software Engineering Intern at Spotify,
-              working within Core Experience and Personalization. On campus, I'm
-              a Systems Software Developer for AerospaceNU and Northeastern
-              Electric Racing, as well as a Database Design and Object-Oriented
-              Programming Teaching Assistant.
+              This past summer (Summer 2026), I was a SWE Intern at Cisco,
+              working within AI Incubation. As an undergrad at Northeastern, I
+              was a Systems Software Developer for AerospaceNU and Northeastern
+              Electric Racing, as well as a Teaching Assistant for Database
+              Design and Object-Oriented Programming.
               <br /> <br />
             </p>
 
@@ -156,20 +156,31 @@ function App() {
           marginTop: "30px",
         }}
       >
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2846%2C46%2C46%2C1%29&t=panda-syntax&wt=none&l=text&width=680&ds=true&dsyoff=6px&dsblur=100px&wc=true&wa=true&pv=17px&ph=23px&ln=false&fl=1&fm=Hack&fs=14px&lh=135%25&si=false&es=2x&wm=false&code=Where%2520I%27ve%2520Been%2520%25F0%259F%259A%2580%0A%0AWork%3A%0ASpotify%3A%20Software%20Engineering%20Intern%20%28Core%20Ex.%29%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20UKG%3A%20Software%20Engineering%20Intern%20%28Cloud%29%0AFidelity%3A%20Data%20Engineering%20Intern%0AFM%20Global%3A%20Data%20Science%20Intern%0AAccenture%3A%20IT%20Consulting%20Intern%0A%0AResearch%3A%0ACenter%20for%20Design%20%40%20Northeastern%3A%20Research%20Software%20Developer%0ABoston%20University%20AI4ALL%3A%20Machine%20Learning%20Intern%0A%0AClubs%3A%0AElectric%20Racing%3A%20Software%20Developer%0AAerospaceNU%3A%20Systems%20Software%20Developer"
-          style={{
-            width: "957px",
-            height: "400px",
-            border: "0",
-            transform: "scale(1)",
-            overflow: "hidden",
-            borderRadius: "10px",
-            marginTop: "50px",
-            color: "#212121",
-          }}
-          sandbox="allow-scripts allow-same-origin"
-        ></iframe>
+        <div className="code-card">
+          <div className="code-card-dots">
+            <div className="code-card-dot code-card-dot-red" />
+            <div className="code-card-dot code-card-dot-yellow" />
+            <div className="code-card-dot code-card-dot-green" />
+          </div>
+
+          <div>{`Where I've Been 🚀
+
+Work:
+Cisco: Software Engineering Intern (AI Incubation)  - Summer 2026
+Spotify: Software Engineering Intern (Core Ex.)     - Summer 2025
+UKG: Software Engineering Intern (Cloud)            - Fall 2024
+Fidelity: Data Engineering Intern                   - Summer 2024
+FM Global: Data Science Intern                      - Summer 2023
+Accenture: IT Consulting Intern                     - Summer 2022
+
+Research:
+Center for Design @ Northeastern: Research Software Developer
+Boston University AI4ALL: Machine Learning Intern
+
+Clubs:
+Electric Racing: Software Developer
+AerospaceNU: Systems Software Developer`}</div>
+        </div>
       </header>
 
       <header
