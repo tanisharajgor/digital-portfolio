@@ -2,17 +2,20 @@
   position: fixed;
   inset: 0;
   z-index: 100;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
   background: #0b0c16;
   cursor: pointer;
   transition: opacity 0.7s ease;
 }
 
-/* Stack every layer in the center of the screen */
+/* Stack every layer on the exact center of the screen. Absolutely positioned
+   children of a centered flex box stay centered even when they're wider than
+   the screen (the glow is, on portrait phones), unlike grid tracks, which grow. */
 .splash > * {
-  grid-area: 1 / 1;
+  position: absolute;
 }
 
 .splash-out {
