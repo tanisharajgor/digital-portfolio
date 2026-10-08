@@ -1,24 +1,43 @@
 .code-card {
-  width: 965px;
-  max-width: 90vw;
-  background: rgb(46, 46, 46);
-  border-radius: 10px;
-  padding: 23px;
-  margin-top: 50px;
-  font-family: "Hack", monospace;
-  font-size: 14px;
-  line-height: 135%;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(24, 25, 38, 0.85);
+  box-shadow: 0 30px 80px -30px rgba(91, 66, 243, 0.45);
+  backdrop-filter: blur(6px);
   color: #e8e6e3;
-  white-space: pre;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  box-sizing: border-box;
+}
+
+.code-card-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.code-card-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  color: #9ca3af;
+  white-space: nowrap;
+}
+
+.code-card-body {
+  padding: 24px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .code-card-dots {
   display: flex;
   gap: 8px;
-  margin-bottom: 17px;
 }
 
 .code-card-dot {
@@ -39,16 +58,75 @@
   background: #27c93f;
 }
 
-@media (max-width: 700px) {
-  .code-card {
-    font-size: 11px;
-    padding: 16px;
+@media (max-width: 640px) {
+  .code-card-body {
+    padding: 18px;
+    font-size: 12px;
   }
 }
 
-@media (max-width: 480px) {
-  .code-card {
-    font-size: 9px;
-    padding: 12px;
+/* Experience timeline: a line down the left with a node per entry */
+.timeline-row {
+  position: relative;
+  padding-left: 28px;
+  padding-bottom: 10px;
+}
+
+/* Connector from this row's node to the next row's node.
+   Nodes sit on the first text line, 0.8em down (line-height 1.6). */
+.timeline-row::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0.8em;
+  bottom: -0.8em;
+  width: 2px;
+  background: linear-gradient(to bottom, rgba(4, 217, 255, 0.55), rgba(175, 64, 255, 0.45));
+}
+
+/* Extra space before the next group heading */
+.timeline-row-gap {
+  padding-bottom: 24px;
+}
+
+.timeline-row:last-child::before {
+  display: none;
+}
+
+.timeline-node {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: calc(0.8em - 6px);
+  width: 12px;
+  height: 12px;
+  border: 2px solid #04d9ff;
+  border-radius: 50%;
+  background: #181926;
+  box-shadow: 0 0 8px rgba(4, 217, 255, 0.55);
+}
+
+.timeline-node-group {
+  left: -1px;
+  top: calc(0.8em - 7px);
+  width: 14px;
+  height: 14px;
+  border-color: #d8b4fe;
+  background: #a855f7;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.6);
+}
+
+/* Most recent role gets a soft pulse */
+.timeline-node-latest {
+  background: #04d9ff;
+  animation: timeline-pulse 2s ease-out infinite;
+}
+
+@keyframes timeline-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(4, 217, 255, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(4, 217, 255, 0);
   }
 }

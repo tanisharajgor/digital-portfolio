@@ -2,11 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.App {
-  /* text-align: center; */
-  background-color: #212121;
-}
-
 .App-header {
   min-height: 110vh;
   display: flex;
@@ -15,19 +10,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .orbit {

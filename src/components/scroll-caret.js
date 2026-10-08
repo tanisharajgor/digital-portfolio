@@ -1,28 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { FiChevronDown } from "react-icons/fi";
 import "../styling/scroll-caret.css";
-import { useLocation } from 'react-router-dom';
 
-// Define your component
+// Bobbing "Scroll!" hint under the hero; fades away once the visitor starts scrolling.
 const ScrollCaret = () => {
+  const [hidden, setHidden] = useState(false);
+
+  useEffect(() => {
+    // Stay visible until about a third of the screen has scrolled by.
+    const onScroll = () => setHidden(window.scrollY > window.innerHeight * 0.35);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <div style={{ marginTop: "0px", transform: "scale(0.6)", marginBottom: "0px" }}>
-      <div class="main__action">
-        <a class="main__scroll" href="#tools">
-          <div class="main__scroll-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path
-                d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"
-                fill="rgba(255,255,255,1)"
-              ></path>
-            </svg>
-            <span class="main__scroll-text">Scroll!</span>
-          </div>
-        </a>
-      </div>
-    </div>
+    <a
+      href="#tools"
+      aria-label="Scroll to content"
+      className={`scroll-caret ${hidden ? "scroll-caret-hidden" : ""}`}
+    >
+      <span className="scroll-caret-label">Scroll!</span>
+      <FiChevronDown size={26} className="scroll-caret-icon" />
+    </a>
   );
 };
 
-// Export your component
 export default ScrollCaret;

@@ -22,11 +22,11 @@ const Rocket = () => {
   }, []);
   return isVisible ? (
     <div style={{ marginRight }}>
-      <div class="orbit">
-        <div class="rocket">
-          <div class="window"></div>
+      <div className="orbit">
+        <div className="rocket">
+          <div className="window"></div>
         </div>
-        <div class="fire"></div>
+        <div className="fire"></div>
       </div>
     </div>
   ) : null;

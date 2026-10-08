@@ -21,7 +21,12 @@ const Typewriter = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return <code style={{ fontSize: '25px', fontFamily: 'monospace' }}>{text}</code>;
+  return (
+    <code className="font-mono text-2xl text-white">
+      {text}
+      <span className="ml-1 inline-block h-[0.9em] w-[2px] translate-y-[0.1em] animate-blink bg-neon" />
+    </code>
+  );
 };
 
 export default Typewriter;
