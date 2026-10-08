@@ -6,7 +6,6 @@ import Earth from "./components/earth";
 import Typewriter from "./components/typewriter";
 import Skills from "./components/skills";
 import ScrollCaret from "./components/scroll-caret";
-import Button from "./components/button";
 import ProjectCard from "./components/project-card";
 import Rocket from "./components/rocket";
 import Starfield, { launchMeteorShower } from "./components/starfield";
@@ -16,21 +15,6 @@ import Reveal from "./components/reveal";
 import SectionHeading from "./components/section-heading";
 import Terminal from "./components/terminal";
 import projects from "./data/projects";
-
-const community = [
-  {
-    label: "Girls Who Code",
-    href: "https://sites.google.com/hillers.org/hopkinetics-irhs/girl-power/girls-who-code?authuser=0",
-  },
-  {
-    label: "International Robotics Honor Society (REC)",
-    href: "https://sites.google.com/hillers.org/hopkinetics-irhs/home?authuser=0",
-  },
-  {
-    label: "VEX Robotics Mentoring Series",
-    href: "https://sites.google.com/hillers.org/hopkinetics-irhs/for-the-youth/vex-mentoring-series?authuser=0",
-  },
-];
 
 const SocialPill = ({ href, icon, label }) => (
   <a
@@ -145,19 +129,6 @@ function App() {
                 </Reveal>
               ))}
             </div>
-          </div>
-        </section>
-
-        <section id="community" className="scroll-mt-20 py-16">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6">
-            <Reveal>
-              <SectionHeading>Giving Back to The Community</SectionHeading>
-              <div className="button-container flex flex-wrap gap-5">
-                {community.map(({ label, href }) => (
-                  <Button key={label} buttonText={label} onPress={href} />
-                ))}
-              </div>
-            </Reveal>
           </div>
         </section>
       </main>
